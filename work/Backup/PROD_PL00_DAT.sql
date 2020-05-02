@@ -1,0 +1,241 @@
+
+SELECT
+
+	*
+FROM
+(
+		SELECT 
+
+		  PD
+		 ,LINE
+		 ,LINE_NAME
+		 ,ITEM_NO
+		 ,ITEM_NAME
+		 ,MODEL
+		 ,'1' AS H
+		 ,P1 AS D1
+		 ,P2 AS D2
+		 ,P3 AS D3
+		 ,P4 AS D4
+		 ,P5 AS D5
+		 ,P6 AS D6
+		 ,P7 AS D7
+		 ,P8 AS D8
+		 ,P9 AS D9
+		 ,P10 AS D10
+		 ,P11 AS D11
+		 ,P12 AS D12
+		 ,P13 AS D13
+		 ,P14 AS D14
+		 ,P15 AS D15
+		 ,P16 AS D16
+		 ,P17 AS D17
+		 ,P18 AS D18
+		 ,P19 AS D19
+		 ,P20 AS D20
+		 ,P21 AS D21
+		 ,P22 AS D22
+		 ,P23 AS D23
+		 ,P24 AS D24
+		 ,P25 AS D25
+		 ,P26 AS D26
+		 ,P27 AS D27
+		 ,P28 AS D28
+		 ,P29 AS D29
+		 ,P30 AS D30
+		 ,P31 AS D31
+		FROM 
+			PROD_MODEL
+		WHERE
+			PM > 0
+
+		UNION ALL
+
+		SELECT
+			PD
+		 ,LINE
+		 ,LINE_NAME
+		 ,ITEM_NO
+		 ,ITEM_NAME
+		 ,MODEL 
+		 ,'2' AS H
+		 ,A1 AS D1
+		 ,A2 AS D2
+		 ,A3 AS D3
+		 ,A4 AS D4
+		 ,A5 AS D5
+		 ,A6 AS D6
+		 ,A7 AS D7
+		 ,A8 AS D8
+		 ,A9 AS D9
+		 ,A10 AS D10
+		 ,A11 AS D11
+		 ,A12 AS D12
+		 ,A13 AS D13
+		 ,A14 AS D14
+		 ,A15 AS D15
+		 ,A16 AS D16
+		 ,A17 AS D17
+		 ,A18 AS D18
+		 ,A19 AS D19
+		 ,A20 AS D20
+		 ,A21 AS D21
+		 ,A22 AS D22
+		 ,A23 AS D23
+		 ,A24 AS D24
+		 ,A25 AS D25
+		 ,A26 AS D26
+		 ,A27 AS D27
+		 ,A28 AS D28
+		 ,A29 AS D29
+		 ,A30 AS D30
+		 ,A31 AS D31
+		FROM 
+			PROD_MODEL
+		WHERE
+			PM > 0
+
+		UNION ALL
+
+		SELECT 
+			PD
+		 ,LINE
+		 ,LINE_NAME
+		 ,ITEM_NO
+		 ,ITEM_NAME
+		 ,MODEL
+		 ,'3' AS H
+		 ,D1 AS D1
+		 ,D2 AS D2
+		 ,D3 AS D3
+		 ,D4 AS D4
+		 ,D5 AS D5
+		 ,D6 AS D6
+		 ,D7 AS D7
+		 ,D8 AS D8
+		 ,D9 AS D9
+		 ,D10 AS D10
+		 ,D11 AS D11
+		 ,D12 AS D12
+		 ,D13 AS D13
+		 ,D14 AS D14
+		 ,D15 AS D15
+		 ,D16 AS D16
+		 ,D17 AS D17
+		 ,D18 AS D18
+		 ,D19 AS D19
+		 ,D20 AS D20
+		 ,D21 AS D21
+		 ,D22 AS D22
+		 ,D23 AS D23
+		 ,D24 AS D24
+		 ,D25 AS D25
+		 ,D26 AS D26
+		 ,D27 AS D27
+		 ,D28 AS D28
+		 ,D29 AS D29
+		 ,D30 AS D30
+		 ,D31 AS D31
+		FROM 
+			PROD_MODEL
+		WHERE
+			PM > 0
+ 
+		UNION ALL
+
+		SELECT 
+			PD
+		 ,LINE
+		 ,LINE_NAME
+		 ,ITEM_NO
+		 ,ITEM_NAME
+		 ,MODEL
+		 ,'4' AS H
+		 ,D1  AS D1
+		 ,D2 + D1 AS D2
+		 ,D3 + D2 AS D3
+		 ,D4 + D3 AS D4
+		 ,D5 + D4 AS D5
+		 ,D6 + D5 AS D6
+		 ,D7 + D6 AS D7
+		 ,D8 + D7 AS D8
+		 ,D9 + D8 AS D9
+		 ,D10 + D9 AS D10
+		 ,D11 + D10 AS D11
+		 ,D12 + D11 AS D12
+		 ,D13 + D12 AS D13
+		 ,D14 + D13 AS D14
+		 ,D15 + D14 AS D15
+		 ,D16 + D15 AS D16
+		 ,D17 + D16 AS D17
+		 ,D18 + D17 AS D18
+		 ,D19 + D18 AS D19
+		 ,D20 + D19 AS D20
+		 ,D21 + D20 AS D21
+		 ,D22 + D21 AS D22
+		 ,D23 + D22 AS D23
+		 ,D24 + D23 AS D24
+		 ,D25 + D24 AS D25
+		 ,D26 + D25 AS D26
+		 ,D27 + D26 AS D27
+		 ,D28 + D27 AS D28
+		 ,D29 + D28 AS D29
+		 ,D30 + D29 AS D30
+		 ,D31 + D30 AS D31
+		FROM 
+			PROD_MODEL
+		WHERE
+			PM > 0
+		UNION ALL
+
+		SELECT 
+			PD
+		 ,LINE
+		 ,LINE_NAME
+		 ,ITEM_NO
+		 ,ITEM_NAME
+		 ,MODEL
+		 ,'5' AS H
+		 ,N1  AS D1
+		 ,N2  AS D2
+		 ,N3  AS D3
+		 ,N4  AS D4
+		 ,N5  AS D5
+		 ,N6  AS D6
+		 ,N7  AS D7
+		 ,N8  AS D8
+		 ,N9  AS D9
+		 ,N10 AS D10
+		 ,N11 AS D11
+		 ,N12 AS D12
+		 ,N13 AS D13
+		 ,N14 AS D14
+		 ,N15 AS D15
+		 ,N16 AS D16
+		 ,N17 AS D17
+		 ,N18 AS D18
+		 ,N19 AS D19
+		 ,N20 AS D20
+		 ,N21 AS D21
+		 ,N22 AS D22
+		 ,N23 AS D23
+		 ,N24 AS D24
+		 ,N25 AS D25
+		 ,N26 AS D26
+		 ,N27 AS D27
+		 ,N28 AS D28
+		 ,N29 AS D29
+		 ,N30 AS D30
+		 ,N31 AS D31
+		FROM 
+			PROD_MODEL
+		WHERE
+			PM > 0		
+) N
+
+WHERE
+	
+	NOT(N.PD = '')
+	AND N.PD = 'K1PL00'
+
+ORDER BY 3,2,6,4,7
